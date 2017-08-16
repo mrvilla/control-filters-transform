@@ -1,0 +1,45 @@
+:root {
+  --blur: 0px;
+  --brightness: 100%;
+  --contrast: 0%;
+  --hue-rotate: 0deg;
+  --saturate: 100%;
+  --sepia: 0%;
+  --rotateX: 0deg;
+  --rotateY: 0deg;
+  --rotateZ: 0deg;
+  --perspective: 0px; }
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 2rem;
+  display: grid; }
+
+.wrap-img {
+  perspective: var(--perspective); }
+  .wrap-img .img {
+    max-width: 100%;
+    box-shadow: 0 12px 48px -11px #000000;
+    filter: blur(var(--blur)) brightness(var(--brightness)) hue-rotate(var(--hue-rotate)) saturate(var(--saturate)) sepia(var(--sepia));
+    transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) rotateZ(var(--rotateZ)); }
+
+form {
+  margin: auto;
+  padding-bottom: 1rem; }
+  form .fieldset {
+    border-color: transparent; }
+  form .legend {
+    color: #f4d5a1; }
+  form input[type="range"] {
+    margin: 0;
+    position: relative;
+    top: .18rem; }
+
+.wrap-img {
+  padding: 2rem;
+  background-color: #ecdbc4;
+  border-radius: 0; }
+
+/*# sourceMappingURL=styles.css.map */

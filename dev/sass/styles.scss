@@ -1,0 +1,57 @@
+@import "variables";
+
+:root {
+  --blur: 0px;
+  --brightness: 100%;
+  --contrast: 0%;
+  --hue-rotate: 0deg;
+  --saturate: 100%;
+  --sepia: 0%;
+  --rotateX: 0deg;
+  --rotateY: 0deg;
+  --rotateZ: 0deg;
+  --perspective: 0px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: $color-black;
+  color: $color-white;
+  margin: 2rem;
+  display: grid;
+}
+.wrap-img {
+  perspective: var(--perspective);
+
+  .img {
+    max-width: 100%;
+    box-shadow: 0 12px 48px -11px $color-black;
+    filter: blur(var(--blur)) brightness(var(--brightness)) hue-rotate(var(--hue-rotate)) saturate(var(--saturate)) sepia(var(--sepia));
+    transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) rotateZ(var(--rotateZ));
+  }
+}
+
+form {
+  margin: auto;
+  padding-bottom: 1rem;
+
+  .fieldset {
+    border-color: transparent;
+  }
+
+  .legend {
+    color: $color-sand;
+  }
+
+  input[type="range"] {
+    margin: 0;
+    position: relative;
+    top: .18rem;
+  }
+}
+
+.wrap-img {
+  padding: $spacing-sm;
+  background-color: $color-egg-shell;
+  border-radius: 0;
+}

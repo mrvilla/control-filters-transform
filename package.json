@@ -1,0 +1,17 @@
+{
+  "name": "lesson-3",
+  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Enrique Villa",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
