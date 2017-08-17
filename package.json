@@ -1,8 +1,7 @@
 {
   "name": "lesson-3",
   "version": "0.0.1",
-  "version": "1.0.0",
-  "description": "",
+  "description": "controling filters and transforms",
   "author": "Enrique Villa",
   "license": "MIT",
   "devDependencies": {
